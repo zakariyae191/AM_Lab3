@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom &amp; Prénom"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/editNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adresse"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/editAdresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Ville" android:layout_marginTop="10dp" android:textStyle="bold" />
+    <Spinner android:id="@+id/spinnerVille" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btnEnvoyer" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Envoyer" android:layout_gravity="center" android:layout_marginTop="20dp" />
+</LinearLayout>
